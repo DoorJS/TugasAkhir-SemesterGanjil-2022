@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="nav">
+            <div class="menu">
+                <div class="logo">NontonSkuy</div>
+                <a href="#" class="active">Movies</a>
+                <a href="#">Apps</a>
+                <a href="#">Discover</a>
+                <a href="#">Dashboard</a>
+                <a href="login.html">Log In</a>
+                <a href="profile/profile.html">Contact</a>
+                <div class="search">  
+                    <input type="text" class="input" placeholder="Search...">  
+                    <button class="btn">  
+                     <i class="fas fa-search"></i> 
+                     
+                     <!-- JAVA SCRIPT -->
+                     <script>const search = document.querySelector('.search')  
+                        const btn = document.querySelector('.btn')  
+                        const input = document.querySelector('.input')  
+                        btn.addEventListener('click', () => {  
+                          search.classList.toggle('active')  
+                          input.focus()  
+                        })  
+                       </script>
+                    </button>  
+
+                <div class="searchBox">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+        <div class="trendingMovies movies">
+            <p>Trending Movies</p>
+            <div class="cards">
+                <div class="card" data-text="The Avengers">
+                   <a href="https://193.178.172.113/movie/the-avengers-2012/"><img src="./hollwoodMovies/avg.jpg" alt=""></a>
+                </div>
+                <div class="card" data-text="Venom">
+                    <a href="https://193.178.172.113/movie/venom-2018/"><img src="./hollwoodMovies/venom.jpg" alt=""></a>
+                </div>
+                <div class="card" data-text="London Has Fallen">
+                    <a href="https://193.178.172.113/movie/london-has-fallen-2016/"><img src="./hollwoodMovies/LondonHasFallen.jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Dracula">
+                    <a href=""><img src="./hollwoodMovies/dracula.jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Hotel Transylvania 2">
+                    <a href=""><img src="./hollwoodMovies/HotelTransylvania2.jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="The Expendables 2">
+                    <a href="">  <img src="./hollwoodMovies/TheExpendables2.jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Point Break">
+                    <a href="">  <img src="./hollwoodMovies/PointBreak.jpg" alt="" ></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="Indonesian movies">
+            <p>Indonesian Movies</p>
+            <div class="cards">
+                <div class="card" data-text="Dilan 1990">
+                    <a href="https://158.69.0.201/dilan-1990-2018/">   <img src="https://ilmupedia.co.id/uploads/article/media_upload/17843/thumb_636_800_800_0_0_auto.jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Bumi Manusia">
+                    <a href="http://167.88.14.147/nonton-bumi-manusia-2019/">  <img src="https://cdn.idntimes.com/content-images/community/2019/07/mv5botrloti4nzetm2e2yi00mtzlltk3nmmtmmm5mgm5zjqznzbjxkeyxkfqcgdeqxvynzy4ndqzntg-at-v1-c3cd34948400161d106c0b9875f6794d_600x400.jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Gundala Putra Petir">
+                    <a href="http://167.88.14.147/tag/nonton-film-gundala-sub-indo/">      <img src="https://www.goodnewsfromindonesia.id/uploads/post/large-gundala-318612ea18dabc48213bf3d6aea3bdc0.jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Wiro Sableng">
+                    <a href="">  <img src="https://cdn1-production-images-kly.akamaized.net/aWpc_Crp21SGFbl347LkG06edpw=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3635373/original/090539600_1637130698-Wiro_Sableng_Cover_Landscape.jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Dread Out">
+                    <a href="">  <img src="https://www.koropak.co.id/img/artikel/koropakcoid-film-indonesia-yang-dinantikan-di-tahun-2019-2.JPG" alt="" ></a>
+                </div>
+                <div class="card" data-text="Habibi Ainun 3">
+                    <a href="">  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY3krju9RhsmMfJfq44jS8waKg_2kw86gxc7l9dUPQIVH8E6aFrpk4aOKV-apkBTudOQI&usqp=CAU" alt="" ></a>
+                </div>
+                <div class="card" data-text="Laskar Pelangi">
+                    <a href=""><img src="https://laskarpelangithemovie.com/wp-content/uploads/2020/05/Laskar-Pelangi-Karya-Riri-Riza-1024x601.jpg" alt="" ></a>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="webSeries movies">
+            <p>Web Series</p>
+            <div class="cards">
+                <div class="card" data-text="Narcos Mexico">
+                    <a href="https://193.178.172.113/tvseries/narcos-mexico-2018/">   <img src="https://www.pcworld.es/cmsdata/features/3686213/ver-narcos-mexico_thumb1200_4-3.jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Squid Game">
+                    <a href="https://193.178.172.113/tvseries/squid-game-2021/">   <img src="https://cdn0-production-images-kly.akamaized.net/xN-4CXZoUL246ZbH4ub5JA-5BiE=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3572711/original/088464500_1631699998-E_AwCq4UYAAEYAP.jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Money Heist Season 4">
+                    <a href="https://193.178.172.113/season/money-heist-season-4-part-4/">  <img src="https://www.mldspot.com/storage/generated/June2021/Money-Heist-Season-4%20(1).jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Narcos">
+                    <a href=""> <img src="https://cdn.wccftech.com/wp-content/uploads/2019/12/narcos_rise_cartels_art.jpeg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Loki">
+                    <a href=""><img src="https://1.bp.blogspot.com/-1G1PIQlcQUE/YMnIIXRx0kI/AAAAAAAAKPY/oTzrBHUStgQ74Jn2agwDSHQpCDMNERvegCLcBGAsYHQ/s1280/detail%2Bdan%2Breview%2Bseries%2BLoki%2Bdisney%2Bplus%2B2021%2Blady%2Bloki.jpg" alt="" ></a>
+                </div>
+                <div class="card" data-text="Wanda Vision">
+                    <a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExtAeRnHiWYUDfBZKndAU8YVRK-U3jw8omJ1PQngapt_QKURdTdjE9gzho57j1o96qLA&usqp=CAU" alt="" ></a>
+                </div>
+            </div>
+        </div>
+        
+            
+    </div>
+    </div>
+
+
+    <script>
+        const a = document.querySelectorAll("a");
+
+        a.forEach(e => {
+            e.addEventListener("click", (e) => {
+                console.log(e.target.classList);
+                a.forEach(e => {
+                    e.classList.remove("active");
+                })
+                if (!(e.target.classList.contains("active"))) {
+                    e.target.classList.add("active");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
